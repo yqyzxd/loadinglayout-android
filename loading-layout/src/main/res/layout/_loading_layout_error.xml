@@ -1,0 +1,45 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:paddingBottom="30dp"
+    android:gravity="center"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@id/error_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:src="@drawable/base_icon_error"/>
+
+    <TextView
+        android:id="@id/error_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        tools:text="网络错误或无链接"
+        tools:textColor="#666666"
+        tools:textSize="16sp"/>
+
+    <TextView
+        android:id="@id/retry_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/solidffffff_stroke999999_corner30"
+        android:gravity="center"
+        android:minWidth="120dp"
+        android:padding="10dp"
+        tools:text="重新加载"
+        tools:textColor="#333333"
+        android:layout_marginLeft="68dp"
+        android:layout_marginRight="68dp"
+        android:layout_marginTop="100dp"
+        tools:textSize="16sp"/>
+
+</LinearLayout>
